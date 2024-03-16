@@ -11,7 +11,7 @@ export function Header() {
         </h1>
       </div>
       <Menu />
-      <button className="bg-primary text-white px-16 py-2 rounded-md">
+      <button className="bg-primary text-white px-16 py-2 rounded-md hover:bg-btnHover transition-all duration-200">
         Entrar
       </button>
     </div>
