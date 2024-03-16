@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
-import { Home } from "../pages/Home";
-import { About } from "../pages/About";
-import { Services } from "../pages/Services";
+import { Home } from "@pages/Home";
+import { About } from "@pages/About";
+import  {Services}  from "@pages/Services";
 
 export function Router() {
   return (
@@ -9,6 +9,7 @@ export function Router() {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/services" element={<Services />} />
+      <Route path="*">"404 Not Found"</Route>
     </Routes>
   );
 }

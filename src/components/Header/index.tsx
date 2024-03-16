@@ -21,7 +21,7 @@ export function Header() {
                   : "text-terciary  text-xl"
               }
             >
-              Tasks
+              Início
             </span>
           )}
         </NavLink>
@@ -34,7 +34,20 @@ export function Header() {
                   : "text-terciary  text-xl"
               }
             >
-              Tasks
+              Sobre
+            </span>
+          )}
+        </NavLink>
+        <NavLink to="/services">
+          {({ isActive }) => (
+            <span
+              className={
+                isActive
+                  ? "text-primary text-xl font-bold"
+                  : "text-terciary  text-xl"
+              }
+            >
+              Serviços
             </span>
           )}
         </NavLink>
@@ -47,7 +60,7 @@ export function Header() {
                   : "text-terciary  text-xl"
               }
             >
-              Tasks
+              Contato
             </span>
           )}
         </NavLink>
