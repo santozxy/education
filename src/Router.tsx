@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
-import { Home } from "@pages/Home";
-import { About } from "@pages/About";
-import { Services } from "@pages/Services";
-import { Error } from "@pages/404";
-import { Contact } from "@pages/Contact";
+import { Home } from "@pages/Home/Home";
+import { About } from "@pages/About/About";
+import { Services } from "@pages/Services/Services";
+import { Error } from "@pages/404/Error";
+import { Contact } from "@pages/Contact/Contact";
 
 export function Router() {
   return (

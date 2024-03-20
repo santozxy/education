@@ -11,7 +11,7 @@ export function Menu() {
   const classInactive =
     "text-terciary font-semibold text-xl hover:text-primary transition-all duration-300";
   return (
-    <nav className="flex gap-6">
+    <nav className="flex gap-6 justify-center items-center">
       {routes.map((item) => (
         <NavLink to={item.to}>
           {({ isActive }) => (
